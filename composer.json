@@ -1,0 +1,24 @@
+{
+    "name": "coyl/jira-api-rest-client-bundle",
+    "description": "Jira API REST client bundle for Symfony",
+    "authors": [
+        {
+            "name": "Vasil coylOne Kulakov",
+            "email": "iam@vasiliy.pro"
+        }
+    ],
+    "autoload": {
+        "psr-0": { "Coyl\\JiraApiRestClientBundle": "" }
+    },
+    "target-dir": "Coyl/JiraApiRestClientBundle",
+    "require": {
+        "symfony/framework-bundle": "~3.0|>=2.7.3",
+        "chobie/jira-api-restclient": "~2.0",
+        "php": ">=5.5"
+    },
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "~4.8.0"
+    },
+    "license": "MIT"
+}
